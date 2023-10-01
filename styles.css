@@ -1,0 +1,53 @@
+body {
+	background: black;
+	font-family: "Pixelify Sans", cursive;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0%;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+	background-image: url(https://img.freepik.com/vector-gratis/fondo-claro-lluvia-pixeles-abstractos_23-2148362233.jpg?t=st=1696121335~exp=1696121935~hmac=a01f2c100c11b6c9b6271856b738b7cba48262e50861a29953e2625038f3f97c);
+}
+input {
+	border: none;
+	border-bottom: 1px gray solid;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: pink;
+	padding: 6px 10px;
+	font-weight: bold;
+	box-shadow: 0 8px #999;
+}
+button:active {
+	background-color: palevioletred;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
